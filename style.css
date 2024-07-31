@@ -72,7 +72,7 @@ PC用のスタイル
 /*===================
 スマートフォン用のスタイル
 =====================*/
-@media screen and (max-width :767px){
+@media screen and (max-width: 767px){
 	
 	/*横幅設定*/
 	body {
@@ -87,8 +87,7 @@ PC用のスタイル
 	/*ハンバーガーメニュー*/
 	#menu-sp {
 		float: right;
-		margin-right: 20px;
-		margin-top: 20px;
+		padding: 0;
 	}
 	
 	/*スマホ用ナビゲーションとの表示切替*/
@@ -123,9 +122,7 @@ PC用のスタイル
 	#nav-sp > a:visited {
 		color: #ffffff;
 	}
-	#nav-sp > a:hover {
-		color: #ffffff;
-	}
+	
 	#nav-sp > a:hover {
 		text-decoration: underline;
 	} 
